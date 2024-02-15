@@ -1,6 +1,6 @@
 package lsp1.shape;
 
-public class Rectangle {
+public class Rectangle extends Quadrileteral {
     private int sideA;
     private int sideB;
 
@@ -24,7 +24,8 @@ public class Rectangle {
     public void setSideB(int sideB) {
         this.sideB = sideB;
     }
-
+   
+    @Override
     public int getArea() {
         return sideA * sideB;
     }

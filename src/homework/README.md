@@ -1,0 +1,2 @@
+1) Класс User нарушал принцип единственной ответственности(Single Responsibility Principle), реализовывая методы save() и report().
+2) Все модули должны зависеть только от абстракций(Dependency Inversion Principle). Класс User зависил от класса Persister в методе save().
